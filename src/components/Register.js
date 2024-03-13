@@ -48,7 +48,7 @@ const Register = () => {
                 By singing up you agree to the <span className="blue">Terms of Service</span> and <span className="blue">Privacy Policy</span>, including <span className="blue">Cookie Use</span>.
                 </div>
                 <div className="already">
-                Already have an account? <span className='blue'>Log in</span>
+                Already have an account? <Link to={'/'}><span className='blue'>Log in</span></Link>
                 </div>
           </div>
       </div>
